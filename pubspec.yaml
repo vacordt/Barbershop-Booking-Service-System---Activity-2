@@ -1,0 +1,27 @@
+name: barbershop_booking
+description: A minimal Flutter app for a barbershop booking service showcasing required tasks.
+publish_to: 'none'
+
+version: 0.1.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_staggered_grid_view: ^0.7.0
+
+  # Used only for development convenience; not required at runtime
+  collection: ^1.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true 
+  assets:
+    - assets/background.jpg
